@@ -1,0 +1,118 @@
+/*
+JavaScript: #f7df1e
+HTML: #e34f26
+CSS: #0170BA
+*/
+body{
+	height: 100%;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.1s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+color: white;
+}
+
+.btn-hello {
+margin: 0 auto;
+padding: 5px 5px;
+color: #111111;
+background-color: #fff; 
+border-style: none;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+border-radius: 8px;
+transition: 3s;
+border-color: #111;
+padding-top:10%;
+}
+.btn-hello:hover{
+	color:#333;
+}
+.titlecard{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 16%;
+}
+
+.about-me{
+	background-color: #333;
+	height: 100%;
+}
+.about-me h1{
+	color: #fff;
+	text-align: right;
+	margin-right: 1%;
+}
+.about-me p{
+	color: #fff;
+	text-align: left;
+	margin-left: 1%
+}
+
+.html-page{
+	background-color: #e34f26;
+	height: 100%;
+}
+.html-page p{
+	color: #fff;
+	text-align: left;
+	margin-left: 1%
+}
+.html-page h1{
+	color: #fff;
+	text-align: right;
+	margin-right: 1%;
+}
+.css-page{
+	background-color: #0170BA;
+	height: 100%;
+}
+.css-page h1{
+	color: #fff;
+	text-align: right;
+	margin-right: 1%;
+}
+.css-page p{
+	color: #fff;
+	text-align: left;
+	margin-left: 1%
+}
+.js-page{
+	background-color: #f7df1e;
+	height: 100%;
+}
+.js-page h1{
+	color: #333;
+	text-align: right;
+	margin-right: 1%;
+}
+.js-page p{
+	color: #333;
+	text-align: left;
+	margin-left: 1%
+}
