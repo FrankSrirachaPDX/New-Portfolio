@@ -3,12 +3,13 @@ JavaScript: #f7df1e
 HTML: #e34f26
 CSS: #0170BA 
 
+newWhite: #f2f2f2
+newGrey: #BCBCBE
+newBlue: #485167
 Eclipse: #343148
-Sweet Corn: #F0EAD6
-Brown Granite: #615550
 */
 body{
-	background-color: #F0EAD6;
+	background-color: #485167;
 }
 body:before {
 	content: "";
@@ -26,37 +27,22 @@ body:before {
 }
 
 /* Top Half */
-.webQ{
-	font-size: 400%;
-	text-align: left;
-	padding-left: 2%;
-	padding-top: 2%;
-	color: #615550;
-
-}
-.hdn-card{
-	padding-top: 15%;
-	padding-right: 2%;
-	padding-bottom: 2%;
-}
-.tad{
-	text-align: right;
-	color: #615550;
-	font-size: 400%;
-	margin-left: 50%;
-}
 
 
 
-  /* Bottom Half*/
+
+
+
+
+  /* reference for later*/
   .aboutMe{
 	display: grid;
 	grid-gap: 1%;
 	grid-template-columns: auto 90%;
 
 	box-shadow:-0px -0px 10px rgba(0,0,0,.8);
-	background-color: #343148;
-	color: #F0EAD6;
+	background-color: #485167;
+	color: #f2f2f2;
 }
 
 ul {
@@ -64,12 +50,12 @@ ul {
 	margin: 0;
 	padding: 0;
 	width: 200px;
-	background-color: #343148;
+	background-color: #485167;
   }
   
   li a {
 	display: block;
-	color: #F0EAD6;
+	color: #f2f2f2;
 	padding: 8px 16px;
 	text-decoration: none;
 	text-align: center;
@@ -82,7 +68,7 @@ ul {
   /* Change the link color on hover */
   li a:hover {
 	background-color: rgba(255, 255, 255, 0.15);
-	color: #F0EAD6;;
+	color: #f2f2f2;;
   }
   .grid1{
 
