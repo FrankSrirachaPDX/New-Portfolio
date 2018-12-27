@@ -1,5 +1,5 @@
 function getAbout(){
-    document.getElementById("JSobj").innerHTML="This is where I'd talk about myself, all my good swag";
+    document.getElementById("JSobj").innerHTML="This is where I'd talk about myself, all my good swag <br> <br> yeet";
 }
 function getHtmlCss(){
     document.getElementById("JSobj").innerHTML="Solid foundation and understanding of HTML and CSS.";

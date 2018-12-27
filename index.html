@@ -10,9 +10,12 @@
 	
 	<!-- CSS Style -->
 	<link rel="stylesheet" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
-    <title>Hello, world!</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <title>Your Next Best Hire</title>
   </head>
+
   <body>
       <div class="flexContainer">
         <h1>Hello, I'm Ryan!</h1>
@@ -22,31 +25,26 @@
     <button class="btn" onclick="getAbout()">About Me</button>
     <button class="btn" onclick="getHtmlCss()">HTML/CSS</button>
     <button class="btn" onclick="getJS()">JavaScript</button>
-    <button class="btn" onclick="getUX()">UX</button>
+    <button class="btn" onclick="getUX()">UX Design</button>
     </div>
-
+    <hr class="style-two">
+    <br>
     <div class="gridMod">
       <div></div>
-      <div class="gridFlex">
-        <p id="JSobj">oh no</p>
+      <div class="gridFlex"id="JSobj">
+        <p>The part where I would actually talk about me.</p>
+        <p>Some of my hobbies</p>
+        <ul class="icon-bar">
+          <a class="icon" href=""><i class="fab fa-github"></i></a>
+          <a class="icon" href=""><i class="fab fa-linkedin"></i></a>
+          <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+        </ul>
       </div>
       <div></div>
     </div>
 
     <!-- Optional JavaScript -->
-    <script>
-function getAbout(){
-    document.getElementById("JSobj").innerHTML="This is where I'd talk about myself, all my good swag";
-}
-function getHtmlCss(){
-    document.getElementById("JSobj").innerHTML="Solid foundation and understanding of HTML and CSS.";
-}
-function getJS(){
-    document.getElementById("JSobj").innerHTML=("Solid foundation with Javascript and fluent understanding of Object Orientated Programming.");
-}
-function getUX(){
-    document.getElementById("JSobj").innerHTML="Talentful Eye for the minute design of proper UX design.";
-}
+    <script src="js\portfolioJS.js">
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
