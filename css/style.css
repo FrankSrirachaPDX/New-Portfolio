@@ -30,24 +30,42 @@ body:before {
 }
 .btn-bar{
 	padding-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
+
 }
 .btn {
 	background-color: #f2f2f2;
-	border: double;
+	border: solid;
 	border-color: #00ab44;
 	color: #333;;
-	padding: 15px 32px;
+	padding: 1rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 130%;
 	margin: 4px 2px;
 	cursor: pointer;
-	width: 15%;
+	transition: .2s;
+
+}
+.btn:hover{
+	background-color: #00ab44;
+	border-color: #f2f2f2;
+	color: #f2f2f2;
 }
 
-
+.gridMod {
+	display: grid;
+	grid-template-columns: auto 80% auto;
+  }
+.gridFlex{
+	text-align: left;
+}
+#JSobj{
+	color: #333;
+	font-size: 200%;
+}
 
 
 

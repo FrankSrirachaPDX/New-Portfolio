@@ -19,32 +19,35 @@
         <h3>A Front-End Dev with a passion for UX design</h3>
       </div>
     <div class="btn-bar">
-    <button class="btn">About Me</button>
-    <button class="btn">HTML/CSS</button>
-    <button class="btn">JavaScript</button>
-    <button class="btn">UX</button>
+    <button class="btn" onclick="getAbout()">About Me</button>
+    <button class="btn" onclick="getHtmlCss()">HTML/CSS</button>
+    <button class="btn" onclick="getJS()">JavaScript</button>
+    <button class="btn" onclick="getUX()">UX</button>
     </div>
 
-
-<!--
-    <div class="aboutMe">
-        <div class="grid1">     
-          <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href="">HTML</a></li>
-            <li><a href="">CSS</a></li>
-            <li><a href="">JavaScript</a></li>
-            <li><a href="">UX</a></li>
-          </ul>
-        </div>
-        <div class="grid2">
-          <h1>text goes here.</h1>
-        </div>
+    <div class="gridMod">
+      <div></div>
+      <div class="gridFlex">
+        <p id="JSobj">oh no</p>
       </div>
-    -->
+      <div></div>
+    </div>
 
     <!-- Optional JavaScript -->
-    <script src=""></script>
+    <script>
+function getAbout(){
+    document.getElementById("JSobj").innerHTML="This is where I'd talk about myself, all my good swag";
+}
+function getHtmlCss(){
+    document.getElementById("JSobj").innerHTML="Solid foundation and understanding of HTML and CSS.";
+}
+function getJS(){
+    document.getElementById("JSobj").innerHTML=("Solid foundation with Javascript and fluent understanding of Object Orientated Programming.");
+}
+function getUX(){
+    document.getElementById("JSobj").innerHTML="Talentful Eye for the minute design of proper UX design.";
+}
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
